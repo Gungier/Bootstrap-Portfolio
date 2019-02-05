@@ -1,0 +1,148 @@
+/* this is to write notes in css */ 
+body {
+  position: relative;
+  margin: 0;
+  box-sizing: border-box;
+} 
+
+header {
+  padding: 20px;
+  font-family: Georgia, Times, 'Times New Roman', sans-serif;
+  margin: auto;
+  color: #3432ce;
+  background: #ffffff;
+  border-color: #cccccc;
+  width: 960px;
+  text-align: center;
+
+}
+.clearfix::after {
+  content:"";
+  visibility: hidden;
+  display: block;
+  clear: both;
+}
+    .navbar {
+      padding: 20px;
+      font-family: Georgia, 'Times New Roman', Times, sans-serif;
+      margin-bottom: 20px; 
+      color: #fff;
+      width: 300px;
+      float: right;
+      }
+    
+
+    .links {
+      float: right;
+      text-align: center;
+      padding: 15px;
+      font-family: Verdana, 'Geneva', Tahoma, sans-serif
+    }
+
+    .name {
+    float: left;
+    padding: 20px;
+    color: white;
+    font-size: 36px;
+    background: #3432ce;
+    text-align: center;
+    }
+    
+
+
+ .bio_box {
+    float: left;
+    width: 100%;
+    background-image: url("../Images/crossline-lines.png");
+    background-repeat: repeat;
+    box-sizing: border-box;
+    display: block;
+   }
+   
+   .container {
+    margin: 20px auto;
+    width: 960px;
+    overflow: hidden;
+    background: #ffffff;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 20px;
+    color: #777777;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: solid;
+    }
+    
+  #bio-pic {
+    height: 15%;
+    width: 15%;
+    float: left;
+    padding: 20px;
+  }
+   #me {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    color: #3432ce;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20;
+    border-bottom: solid;
+    border-bottom-color: #777777;
+    }
+
+  .pic_name {
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    float: left;
+    padding: 10px 15px 10px 15px;
+    font-size: 16px;
+    text-align: center;
+    width: 175px;
+    color: #e0e4e7; 
+    background: #3432ce;
+    position: absolute;
+    bottom: 1px;
+    
+  }
+    
+  .pics {
+    float: left;
+    padding: 0 20px 10px 0;
+    height: 150px;
+    width: 225px;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+  }
+
+  .picframe {
+    float: left;
+    height: 150px;
+    width: 225px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .contact {
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+  .input {
+    width: 100%;
+    
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: block;
+    text-align: center;
+    height: 50px;
+    background: #3432ce;
+    width: 100%;
+    margin: auto;
+    color: #fff;
+    }
+  
+    
